@@ -43,7 +43,7 @@ passthrough:
 parts:
   zerotier-one:
     plugin: make
-    source: https://github.com/zerotier/ZeroTierOne/archive/1.6.1.zip
+    source: https://github.com/zerotier/ZeroTierOne/archive/1.6.0.zip
     source-type: zip
     build-packages:
       - build-essential

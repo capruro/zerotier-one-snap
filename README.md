@@ -34,9 +34,8 @@ NOTE: the snap connect command is necessary or you will be unable to use the /de
 Approve your new node in [ZeroTier Central](https://my.zerotier.com/)! Welcome online!
 
 
-<!-- Uncomment and modify this when your snap is available on the store
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/my-snap-name)
--->
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/zerotier)
+
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 

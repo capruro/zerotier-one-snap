@@ -82,7 +82,7 @@ If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft
 
 ## The Snapcrafters
 
-| [![capruro](http://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431?s=128)](https://github.com/capruro/) |
+| <img src="https://avatars.githubusercontent.com/u/64908287?s=400&u=8f38d81de2195ed261bd3088f4c4c567ab3c839c&v=4" data-canonical-src="https://github.com/capruro/" width="128" height="128" /> |
 | :---: |
 | [capruro](https://github.com/capruro/) |
 
@@ -90,6 +90,6 @@ If you have any questions, [post in the Snapcraft forum](https://forum.snapcraft
 
 ## Upstream
 
-| [![ZeroTierOne](https://avatars3.githubusercontent.com/u/4173285?s=200&v=4)](https://github.com/zerotier/ZeroTierOne) |
+| <img src="https://avatars3.githubusercontent.com/u/4173285?s=200&v=4" data-canonical-src="https://github.com/zerotier/ZeroTierOne" width="128" height="128" /> |
 | :---: |
 | [ZeroTierOne](https://github.com/zerotier/ZeroTierOne) |

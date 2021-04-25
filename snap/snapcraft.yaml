@@ -7,7 +7,7 @@ description: |
 adopt-info: zerotier-one
 confinement: strict
 grade: stable
-base: core20
+base: core18
 
 apps:
   zerotier-one:

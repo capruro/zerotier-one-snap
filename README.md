@@ -28,8 +28,8 @@ NOTE: the snap connect command is necessary or you will be unable to use the /de
 
 ### Join your network
 
-    sudo zerotier.zerotier-cli join 8056c2e21c000001
-    sudo zerotier.zerotier-cli status
+    sudo zerotier.cli join 8056c2e21c000001
+    sudo zerotier.cli status
 
 Approve your new node in [ZeroTier Central](https://my.zerotier.com/)! Welcome online!
 

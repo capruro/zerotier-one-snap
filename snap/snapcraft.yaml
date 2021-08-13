@@ -22,7 +22,7 @@ description: |
 adopt-info: one
 confinement: strict
 grade: stable
-base: core18
+base: core20
 
 apps:
   one:

@@ -4,13 +4,13 @@ description: |
   It erases the LAN/WAN distinction and makes VPNs, tunnels, proxies, and other kludges arising from the inflexible nature of physical networks obsolete. Everything is encrypted end-to-end and traffic takes the most direct (peer to peer) path available.
   This snap contains ZeroTier One, a service that provides ZeroTier network connectivity and makes joining virtual networks as easy as joining IRC or Slack channels.
   Visit ZeroTier's site for more information and pre-built binary packages. Apps for Android and iOS are available for free in the Google Play and Apple app stores.
-adopt-info: zerotier-one
+adopt-info: one
 confinement: strict
 grade: stable
 base: core18
 
 apps:
-  zerotier-one:
+  one:
     # Add -U to prevent attempting to drop privileges since snaps have their
     # own containment mechanism. Otherwise, if a user named "zerotier-one"
     # exists on the system, the setgid or related calls will fail.
@@ -21,12 +21,12 @@ apps:
       - network-bind
       - network-control
 
-  zerotier-cli:
+  cli:
     command: usr/sbin/zerotier-cli
     plugs:
       - network
 
-  zerotier-idtool:
+  idtool:
     command: usr/sbin/zerotier-idtool
     plugs:
       - network
@@ -36,7 +36,7 @@ layout:
     bind: $SNAP_COMMON
 
 parts:
-  zerotier-one:
+  one:
     plugin: make
     source: https://github.com/zerotier/ZeroTierOne.git
     source-type: git

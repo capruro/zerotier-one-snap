@@ -22,9 +22,7 @@ distributions.</p>
 ## Install
 
     sudo snap install zerotier
-    sudo snap connect zerotier:network-control
 
-NOTE: the snap connect command is necessary or you will be unable to use the /dev/tun needed for the connection.
 
 ### Join your network
 
